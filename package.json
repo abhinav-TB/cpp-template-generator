@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "Abhinav T B",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^7.3.3"
   }

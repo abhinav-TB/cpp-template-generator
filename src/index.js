@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var inquirer = require('inquirer');
 const fs=require('fs');
-import "../cpp templates"
+
 
 
 inquirer

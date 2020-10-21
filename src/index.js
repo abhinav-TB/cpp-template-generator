@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 var inquirer = require('inquirer');
 const fs=require('fs');
+import "../cpp templates"
 
 
 inquirer
@@ -17,11 +18,11 @@ inquirer
 
     const cwd =process.cwd();
     // writeFileSync(path+'/template.cpp',template);
-    fs.readFileSync(`./cpp templates/${answers.template}.cpp`, "utf8");
-    fs.copyFile(`./cpp templates/${answers.template}.cpp`,cwd+`/${answers.name}.cpp`,(err)=>{
+    fs.readFileSync(`../cpp templates/${answers.template}.cpp`, "utf8");
+    fs.copyFile(`../cpp templates/${answers.template}.cpp`,cwd+`/${answers.name}.cpp`,(err)=>{
         console.log(err);
     })
-    console.log("yout template is ready 🎉")
+    console.log("your template is ready 🎉")
   })
   .catch(error => {
     if(error.isTtyError) {

@@ -18,8 +18,8 @@ inquirer
 
     const cwd =process.cwd();
     // writeFileSync(path+'/template.cpp',template);
-    fs.readFileSync(`../cpp templates/${answers.template}.cpp`, "utf8");
-    fs.copyFile(`../cpp templates/${answers.template}.cpp`,cwd+`/${answers.name}.cpp`,(err)=>{
+    fs.readFileSync(`./cpp templates/${answers.template}.cpp`, "utf8");
+    fs.copyFile(`./cpp templates/${answers.template}.cpp`,cwd+`/${answers.name}.cpp`,(err)=>{
         console.log(err);
     })
     console.log("your template is ready 🎉")

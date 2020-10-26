@@ -2,13 +2,12 @@
 var inquirer = require('inquirer');
 const fs=require('fs');
 
+var arguments=process.argv;
+var name=arguments[2];
 
 
 inquirer
   .prompt([
-    {
-      type:'input',message:"cpp_file name",name:"name"
-  },
     {
         type:'list',message:"choose a template",name:"template",choices:['basic','college','cp']
     }
@@ -19,7 +18,7 @@ inquirer
     const cwd =process.cwd();
     // writeFileSync(path+'/template.cpp',template);
     fs.readFileSync(`/home/abhinav/cpp_templates/${answers.template}.cpp`, "utf8");
-    fs.copyFile(`/home/abhinav/cpp_templates/${answers.template}.cpp`,cwd+`/${answers.name}.cpp`,(err)=>{
+    fs.copyFile(`/home/abhinav/cpp_templates/${answers.template}.cpp`,cwd+`/${name}.cpp`,(err)=>{
         console.log(err);
     })
     console.log("your template is ready 🎉")

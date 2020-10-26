@@ -1,9 +1,9 @@
 {
   "name": "cpp-cli",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "a cli for creating c++ templates",
   "main": "src/index.js",
-  "bin":"src/index.js",
+  "bin": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },

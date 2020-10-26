@@ -5,6 +5,9 @@ const fs=require('fs');
 var arguments=process.argv;
 var name=arguments[2];
 let filenames = fs.readdirSync('/home/abhinav/cpp_templates');
+// filenames.forEach(fi=>{
+//   console.log(fi);
+// })
 
 inquirer
   .prompt([

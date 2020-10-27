@@ -3,21 +3,35 @@
 
 using namespace std;
 
-class Any
-{
+class Any{
+  
 private:
-    /* data */
+   int var1;
+   int var2;
 public:
-    Any(/* args */);
+    Any(){};
+    Any(int , int );
     ~Any();
+    void show();
+    int getdata(){
+        return var1;
+    }
 };
 
-Any::Any(/* args */)
+Any::Any(int a ,int b)
 {
+    this->var1=a;
+    this->var2=b;
 }
 
 Any::~Any()
 {
+}
+void Any::show(){
+    
+    cout<<var1<<endl;
+    cout<<var2<<endl;
+
 }
 
 int main(){

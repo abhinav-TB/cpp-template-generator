@@ -20,15 +20,10 @@ inquirer
     // writeFileSync(path+'/template.cpp',template);
     fs.readFileSync(`/home/abhinav/cpp_templates/${answers.template}`, "utf8");
     fs.copyFile(`/home/abhinav/cpp_templates/${answers.template}`, cwd + `/${name}.cpp`, (err) => {
-        console.log(err);
+        // console.log(err);
     });
     console.log("your template is ready 🎉");
 })
     .catch((error) => {
-    if (error.isTtyError) {
-        console.log(error);
-    }
-    else {
-        console.log(error);
-    }
+    console.log(error);
 });

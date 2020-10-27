@@ -24,14 +24,10 @@ inquirer
     // writeFileSync(path+'/template.cpp',template);
     fs.readFileSync(`/home/abhinav/cpp_templates/${answers.template}`, "utf8");
     fs.copyFile(`/home/abhinav/cpp_templates/${answers.template}`,cwd+`/${name}.cpp`,(err: any)=>{
-        console.log(err);
+        // console.log(err);
     })
     console.log("your template is ready 🎉");
   })
-  .catch((error: { isTtyError: any; }) => {
-    if(error.isTtyError) {
-      console.log(error)
-    } else {
-      console.log(error);
-    }
+  .catch((error: any) => {
+    console.log(error)
   });

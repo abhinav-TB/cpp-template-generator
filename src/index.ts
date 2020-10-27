@@ -26,7 +26,7 @@ inquirer
     fs.copyFile(`/home/abhinav/cpp_templates/${answers.template}`,cwd+`/${name}.cpp`,(err: any)=>{
         console.log(err);
     })
-    console.log("your template is ready 🎉")
+    console.log("your template is ready 🎉");
   })
   .catch((error: { isTtyError: any; }) => {
     if(error.isTtyError) {

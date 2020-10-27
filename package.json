@@ -1,5 +1,5 @@
 {
-  "name": "cpp",
+  "name": "cpp-create",
   "version": "1.0.0",
   "description": "a cli for creating c++ templates",
   "main": "dest/index.js",

@@ -5,12 +5,13 @@
   "main": "src/index.js",
   "bin": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node dest/index.js"
   },
   "keywords": [],
   "author": "Abhinav T B",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^14.14.5",
     "inquirer": "^7.3.3"
   }
 }

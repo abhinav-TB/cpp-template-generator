@@ -1,3 +1,3 @@
 # # ! /bin/bash
-cp -R ./'cpp templates'   /home/abhinav
+cp -R ./'cpp templates'   /home/$USER
 

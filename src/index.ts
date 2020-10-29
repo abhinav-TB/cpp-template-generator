@@ -1,4 +1,4 @@
-#!/usr/bin/env ts-node
+// #!/usr/bin/env node
 export {};
 var inquirer = require('inquirer');
 const fs=require('fs');

@@ -22,6 +22,8 @@ LINUX AND MAC
     `./script.sh`
    
     `npm install`
+
+    `npm run build`
    
     `npm link`
    

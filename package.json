@@ -5,7 +5,8 @@
   "main": "dest/index.js",
   "bin": "dest/index.js",
   "scripts": {
-    "start": "node dest/index.js"
+    "start": "node dest/index.js",
+    "build" : "tsc"
   },
   "keywords": [],
   "author": "Abhinav T B",

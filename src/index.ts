@@ -1,4 +1,4 @@
-// #!/usr/bin/env node
+#!/usr/bin/env node
 export {};
 var inquirer = require('inquirer');
 const fs=require('fs');
@@ -8,7 +8,7 @@ var args:String[]=process.argv;
 var name=args[2];
 let filenames = fs.readdirSync(`/home/${user}/cpp_templates`);
 // filenames.forEach(fi=>{
-//   console.log(fi);
+//   console.log(fiee);
 // })
 
 inquirer

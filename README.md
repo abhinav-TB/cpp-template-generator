@@ -29,7 +29,7 @@ LINUX AND MAC ,USE WSL FOR WINDOWS
 
 >   note: if you get an access denied error use sudo before that command
 
-  windows and repl  installation will be updated soon
+  
 
 ## USAGE
 

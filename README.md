@@ -8,9 +8,12 @@ clone this repo
 
       git clone https://github.com/abhinav-TB/cpp-template-generator.git
 
+## PREREQUISITE
+you need have node and npm installed
+
 ## SETUP
 
-LINUX AND MAC
+LINUX AND MAC ,USE WSL FOR WINDOWS
 
  - change directory to cloned repo
        `cd cpp-template-generator`
@@ -20,11 +23,7 @@ LINUX AND MAC
     `chmod +x script.sh`
    
     `./script.sh`
-   
-    `npm install`
-
-    `npm run build`
-   
+      
     `npm link`
    
 

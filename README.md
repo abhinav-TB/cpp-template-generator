@@ -24,7 +24,7 @@ LINUX AND MAC ,USE WSL FOR WINDOWS
    
     `./script.sh`
       
-    `npm link`
+    `sudo npm link`
    
 
 >   note: if you get an access denied error use sudo before that command
